@@ -1,0 +1,75 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+html{font-size: 16px;}
+
+ .head{
+    width: 100%;
+    height: 100vh!important;
+    position: relative;
+
+} 
+
+.nav_titile{
+    color: #ffffff!important;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.nav_sec{
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-nav li a{
+    color: #ffffff!important;
+}
+
+.navbar-toggler{
+    
+    border: none!important;
+    outline: none!important;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    
+}
+
+nav .fa-bars{
+    color: white!important;
+    font-size: 1.5rem;
+       
+}
+
+.hero_carousel{
+    position: absolute;
+    top: -12%;
+}
+
+
+.carousel_con{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.carousel_con p{
+    font-size: 1.3rem;
+    color: blue!important;
+    text-transform: uppercase;
+}
+.carousel_con p:nth-last-child(1){
+    font-size: 1.1rem;
+     text-transform: lowercase;
+}
+.carousel_con h2{
+    margin-top: -1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: blue;
+}
+.carousel_con button{
+    margin-top: 1rem;
+}
+
+
+
+
