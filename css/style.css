@@ -85,7 +85,7 @@ nav .fa-bars{
         top: 40%;
     }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
     html{font-size: 6px;}}
 
 
