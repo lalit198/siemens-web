@@ -41,8 +41,9 @@ nav .fa-bars{
 }
 
 .hero_carousel{
-    position: absolute;
-    top: -12%;
+    position: absolute!important;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -67,8 +68,25 @@ nav .fa-bars{
     color: blue;
 }
 .carousel_con button{
-    margin-top: 1rem;
+    padding-top: 0.7rem!important;
 }
+
+/*-------------- MEDIA QUERY------------ */
+@media only screen and (max-width: 1024px) {
+    html{font-size: 14px;}}
+
+@media only screen and (max-width: 768px) {
+    html{font-size: 12px;}}
+
+@media only screen and (max-width: 588px) {
+    html{ font-size: 9px;}
+      
+    .carousel_con{
+        top: 40%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    html{font-size: 6px;}}
 
 
 
