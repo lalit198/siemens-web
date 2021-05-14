@@ -1,11 +1,16 @@
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 html{font-size: 16px;}
 
- .head{
+#load{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.head{
     width: 100%;
     height: 100vh!important;
     position: relative;
-
 } 
 
 .nav_titile{
