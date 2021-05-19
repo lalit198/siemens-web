@@ -224,11 +224,11 @@ meeting every specification.</p></pre>
                
                 <span><i class="fa fa-times" aria-hidden="true" id="btn_can"></i></span> 
                 <div class="collapse navbar-collapse nav_item_display" id="navbarNav">
-                    <div class="row container">
+                    <div class="row container" id="main_menu">
                         <div class="col-xl-8 col-md-8 col-sm-11 navbar_link">
                             <ul class="navbar-nav">
                                 <li class="nav-item my-2 pl-4">
-                                    <a class="nav-link" href="#top">Product & Services <span class="link_one"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                    <a class="nav-link" href="#top" id="btn_menu">Product & Services <span class="link_one"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
                                 </li>
                                 <li class="nav-item my-2 pl-4">
                                     <a class="nav-link" href="#about">Market-specific Solutions <span class="link_sec"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
@@ -256,6 +256,65 @@ meeting every specification.</p></pre>
                             <div class="globe">
                             <a class="nav-link" href="#footer"><i class="fa fa-globe" aria-hidden="true"></i>  Globe</a>
                         </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 col-sm-1">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row container" style="display: none;" id="show_sub_menu">
+                        <div class="col-xl-8 col-md-8 col-sm-11 navbar_link">
+                            <ul class="navbar-nav">
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#top"><span class="sub_link_one"><i class="fa fa-chevron-left mr-auto" aria-hidden="true"></i></span> Main Menu</a>
+                                </li>
+                                <li class="nav-item my-2 pl-4 sub_head">
+                                    <a class="nav-link" href="#about"><span>Products and Services</span></a>
+                                </li>
+                                <div style="overflow-y: scroll;">
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#services">Building and Technology <span class="sub_link_two"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+            
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#services">Drive Technology <span class="sub_link_thr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a> 
+                                </li>
+                                 
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#testimonials">Energy <span class="sub_link_four"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+            
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Financing <span class="sub_link_fif"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+        
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Healthcare <span class="sub_link_six"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Industrial Automation <span class="sub_link_sev"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Mobility <span class="sub_link_eig"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Services <span class="sub_link_nin"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Software <span class="sub_link_ten"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+
+                                <li class="nav-item my-2 pl-4">
+                                    <a class="nav-link" href="#footer">Consumer Product <span class="sub_link_elv"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                                </li>
+                            </div>
+                            </ul> 
+                           
                         </div>
                         <div class="col-xl-4 col-md-4 col-sm-1">
 
@@ -299,6 +358,14 @@ meeting every specification.</p></pre>
                 
             });
 
+        });
+
+        
+        $(document).ready(function () {
+            $('#btn_menu').click(function () {
+                $('#show_sub_menu').css("display", "block");
+                $('#main_menu').css("display", "none");
+            });
         });
 
     </script>

@@ -133,6 +133,49 @@ nav .fa-bars{
     color: #00B394;
 }
 
+.navbar_link .sub_head span{
+    color: #00B394;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 2px solid #00B394;
+}
+
+.sub_link_one{
+    margin-right: 2rem;
+}
+
+.sub_link_two{
+    margin-left: 26.5rem;
+}
+.sub_link_thr{
+    margin-left: 30.2rem;
+}
+.sub_link_four{
+    margin-left: 35.2rem;
+}
+.sub_link_fif{
+    margin-left: 33.9rem;
+}
+.sub_link_six{
+    margin-left: 33.3rem;
+}
+.sub_link_sev{
+    margin-left: 27.9rem;
+}
+.sub_link_eig{
+    margin-left: 34.5rem;
+}
+.sub_link_nin{
+    margin-left: 34.5rem;
+}
+.sub_link_ten{
+    margin-left: 34.2rem;
+}
+.sub_link_elv{
+    margin-left: 29.5rem;
+}
+
+
 /*-------------- MEDIA QUERY------------ */
 
 @media screen and (max-width: 1200px) {
