@@ -79,7 +79,87 @@ nav .fa-bars{
     padding-top: 0.7rem!important;
 }
 
+.show_main{
+    width: 100%;
+    height: 100vh;
+    background-color: #001034;
+    position: absolute;
+    top: 0;
+}
+
+#btn_can{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.navbar_link{
+    margin-top: 2rem; 
+    margin-left: 4.5rem;  
+}
+
+.navbar_link li a{
+    font-size: 1.1rem;
+}
+
+.navbar_link li:hover{
+    background-color: #00183B;
+}
+
+.navbar_link li a i{
+    margin-left: auto!important;
+}
+
+.navbar_link .nav_item_clr a{
+    color: #00B394!important;
+}
+
+.link_one{
+    margin-left: 30rem;
+}
+.link_sec{
+     margin-left: 27rem;
+}
+.link_thr{
+    margin-left: 34.7rem;
+}
+.globe a{
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+.globe a:hover{
+    color: #00B394;
+}
+
 /*-------------- MEDIA QUERY------------ */
+
+@media screen and (max-width: 1200px) {
+    .link_one{
+        margin-left: 23rem;
+    }
+    .link_sec{
+         margin-left: 20rem;
+    }
+    .link_thr{
+        margin-left: 27.5rem;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .link_one{
+        margin-left: 16rem;
+    }
+    .link_sec{
+         margin-left: 13rem;
+    }
+    .link_thr{
+        margin-left: 20.6rem;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     html{font-size: 14px;}}
 
